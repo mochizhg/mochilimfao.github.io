@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="lo.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <img src="images/spotify.webp" alt="" />
+      <div class="navigation">
+        <ul>
+          <i id="menu-close" class="ri-close-fill"></i>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="course.html">Albums</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <i id="menu-btn" class="ri-menu-4-line"></i>
+      </div>
+    </nav>
+
+    <!-- Home -->
+
+    <section id="home">
+      <video muted loop autoplay>
+        <source src="video/pillow.mp4" type="video/mp4" />
+      </video>
+      <audio id="aud" loop src="video/pillow audio.mp3"></audio>
+      <h2>Spotify</h2>
+      <p>Music, podcasts, and audiobooks for every moment.</p>
+      <div class="btn">
+        <a
+          class="blue"
+          onclick="window.location.href='//accounts.spotify.com/en/status?flow_ctx=a9dfc5fd-e40c-4c01-b685-ad6e49096f5d%3A1695522256'"
+          >Click For More</a
+        >
+      </div>
+    </section>
+
+    <!-- Profiles -->
+    <section id="experts">
+      <h1>Featured Artist</h1>
+
+      <div class="expert-box">
+        <div class="profile ta">
+          <div class="imek">
+            <img
+              src="images/keshi.jpg"
+              alt=""
+              onclick="window.location.href='post.html'"
+            />
+          </div>
+
+          <h6>Keshi</h6>
+          <p>Singer/Songwritter</p>
+          <div class="pro-links">
+            <i
+              class="ri-instagram-line"
+              onclick="window.location.href='//www.instagram.com/keshi/?hl=en'"
+            ></i>
+            <i
+              class="ri-spotify-fill"
+              onclick="window.location.href='//open.spotify.com/artist/3pc0bOVB5whxmD50W79wwO?autoplay=true'"
+            ></i>
+          </div>
+        </div>
+        <div class="profile tb">
+          <div class="imek">
+            <img
+              src="images/laufey.jpg"
+              alt=""
+              onclick="window.location.href='post2.html'"
+            />
+          </div>
+          <h6>Laufey</h6>
+          <p>Singer/Songwritter</p>
+          <div class="pro-links">
+            <i
+              class="ri-instagram-line"
+              onclick="window.location.href='//www.instagram.com/laufey/?hl=en'"
+            ></i>
+            <i
+              class="ri-spotify-fill"
+              onclick="window.location.href='//open.spotify.com/artist/7gW0r5CkdEUMm42w9XpyZO?autoplay=true'"
+            ></i>
+          </div>
+        </div>
+        <div class="profile tc">
+          <div class="imek">
+            <img
+              src="images/wave to earth.jpg"
+              alt=""
+              onclick="window.location.href='post3.html'"
+            />
+          </div>
+          <h6>Wave To Earth</h6>
+          <p>Singer/Songwritter</p>
+          <div class="pro-links">
+            <i
+              class="ri-instagram-line"
+              onclick="window.location.href='//www.instagram.com/wave_to_earth/?hl=en'"
+            ></i>
+            <i
+              class="ri-spotify-fill"
+              onclick="window.location.href='//open.spotify.com/artist/5069JTmv5ZDyPeZaCCXiCg?autoplay=true'"
+            ></i>
+          </div>
+        </div>
+        <div class="profile td">
+          <div class="imek">
+            <img
+              src="images/d4vd.webp"
+              alt=""
+              onclick="window.location.href='post4.html'"
+            />
+          </div>
+          <h6>D4vd</h6>
+          <p>Singer/Songwritter</p>
+          <div class="pro-links">
+            <i
+              class="ri-instagram-line"
+              onclick="window.location.href='//www.instagram.com/d4vddd/?hl=en'"
+            ></i>
+            <i
+              class="ri-spotify-fill"
+              onclick="window.location.href='//open.spotify.com/artist/5y8tKLUfMvliMe8IKamR32?autoplay=true'"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Courses -->
+    <section id="course">
+      <h1>Albums</h1>
+      <div class="course-box">
+        <div class="courses ca">
+          <img src="images/keshi.jpg" alt="" />
+          <div class="details">
+            <span>Keshi</span>
+            <h6></h6>
+            <div class="cost" onclick="window.location.href='course.html'">
+              View
+            </div>
+          </div>
+        </div>
+        <div class="courses cb">
+          <img src="images/laufey.jpg" alt="" />
+          <div class="details">
+            <span>Laufey</span>
+            <h6></h6>
+            <div class="cost" onclick="window.location.href='course.html'">
+              View
+            </div>
+          </div>
+        </div>
+        <div class="courses cc">
+          <img src="images/wave to earth.jpg" alt="" />
+          <div class="details">
+            <span>Wave To Earth</span>
+            <h6></h6>
+            <div class="cost" onclick="window.location.href='course.html'">
+              View
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Registration -->
+    <section id="registration">
+      <div class="reminder">
+        <p>Listen To The Music We Provide</p>
+        <h1>Register To Get It</h1>
+      </div>
+
+      <div class="form">
+        <h3>Create Free Account Now</h3>
+        <input type="text" placeholder="Name" name="" id="" />
+        <input type="text" placeholder="Email Address" name="" id="" />
+        <input type="text" placeholder="Phone Number" name="" id="" />
+        <div class="btn">
+          <a class="yellow" href="#">Submit Form</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-col">
+        <h3>Homepage</h3>
+        <li>Featured Artist</li>
+        <li>Albums</li>
+      </div>
+      <div class="footer-col">
+        <h3>Aboutpage</h3>
+        <li>About Us</li>
+        <li>Featured Artist</li>
+      </div>
+      <div class="footer-col">
+        <h3>Blogpage</h3>
+        <li>Keshi</li>
+        <li>Laufey</li>
+        <li>Wave To Earth</li>
+        <li>Dv4d</li>
+      </div>
+      <div class="footer-col">
+        <h3>Albums</h3>
+        <li>Keshi</li>
+        <li>Laufey</li>
+        <li>Wave To Earth</li>
+        <li>Dv4d</li>
+        <li>IU</li>
+        <li>Joji</li>
+      </div>
+      <div class="footer-col">
+        <h3>Contact</h3>
+        <li>Get In Touch</li>
+        <li>Headquarters</li>
+        <li>Phone</li>
+        <li>Support</li>
+      </div>
+
+      <div class="copyright">
+        <p>Copyright @2023 Ferdict</p>
+      </div>
+    </footer>
+    <!-- <script>
+      var vid = document.getElementById("vid");
+      vid.volume = 0.2;
+    </script> -->
+  </body>
+</html>
